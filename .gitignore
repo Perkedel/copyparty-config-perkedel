@@ -2,7 +2,10 @@
 
 # account secrets
 conf.d/account.conf
+conf.d/accounts.conf
+conf.d/accounts*.conf
 
 # temporary and caches
 .cache
 landing/.hist
+*/.hist
