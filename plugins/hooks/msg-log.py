@@ -44,11 +44,11 @@ example usage as a volflag in a copyparty config file:
 
 
 # output filename
-FILENAME = os.environ.get("COPYPARTY_MESSAGE_FILENAME", "") or "README.md"
+FILENAME = os.environ.get("COPYPARTY_MESSAGE_FILENAME", "") or "GUESTBOOK.md"
 
 # set True to write in descending order (newest message at top of file);
 # note that this becomes very slow/expensive as the file gets bigger
-DESCENDING = True
+DESCENDING = False
 
 # the message template; the following parameters are provided by copyparty and can be referenced below:
 # 'ap' = absolute filesystem path where the message was posted
@@ -61,8 +61,12 @@ DESCENDING = True
 # 'txt' = the message text itself
 # (uncomment the print(msg_info) to see if additional information has been introduced by copyparty since this was written)
 TEMPLATE = """
-🕒 %(datetime)s, 👤 %(user)s @ %(ip)s
+### 🕒 %(datetime)s, 👤 %(user)s @ %(ip)s
+%(sz)s B ; Unix-timestamp: %(mt)s
+```
 %(txt)s
+```
+
 """
 
 
