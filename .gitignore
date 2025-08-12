@@ -1,0 +1,8 @@
+# Perkedel copyparty server
+
+# account secrets
+conf.d/account.conf
+
+# temporary and caches
+.cache
+landing/.hist
