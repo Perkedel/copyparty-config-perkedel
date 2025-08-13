@@ -1,0 +1,21 @@
+% ../conf_pieces/global_default.conf
+% ../conf.d
+
+# fill with your storage now!
+# First, copy this file to the `/conf`. 
+# rename this file so that `YourServerName` is your whatever you label this server as,
+# `YourOS` is what's your distro or Operating System,
+# & to remove `.template` off of the extension, leaving just `.conf` at the end.
+# e.g., `/conf/conf-OhMyPCDuar-Rocky.conf`
+
+[/Examples]
+    ~/MySamples
+    % ../conf_pieces/accs_default_noAccident.conf
+    % ../conf_pieces/flags_media.conf
+
+# so on & so forth.
+
+# Once you're done, return to the root of this repository.
+# `cd ..`
+# Start the copyparty pointing to this your edited config
+# `./copyparty-sfx.py -c conf/conf-OhMyPCDuar-Rocky.conf`

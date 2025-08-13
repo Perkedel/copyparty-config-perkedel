@@ -44,7 +44,7 @@ example usage as a volflag in a copyparty config file:
 
 
 # output filename
-FILENAME = os.environ.get("COPYPARTY_MESSAGE_FILENAME", "") or "GUESTBOOK.md"
+FILENAME = os.environ.get("COPYPARTY_MESSAGE_FILENAME", "") or "README.md"
 
 # set True to write in descending order (newest message at top of file);
 # note that this becomes very slow/expensive as the file gets bigger

@@ -1,5 +1,3 @@
-# Extra docs
+# What are these docs
 
-as I find. Pls 9001, complete the doc soon!
-
-<!-- {{self.ip}} -->
+Docs we have collected for this copyparty.
