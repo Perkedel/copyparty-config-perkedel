@@ -1,3 +1,22 @@
+# Accounts
+# Fill in your username & password.
+# such as `yourusername:whatever`.
+# your username, colon, and the password
+
+# DO NOT SHARE THIS FILE
+# Obviously contains your passwords of your entire server copyparty instance.
+# it is recommended that you never use the same password somewhere at anywhere,
+# & always use password manager with its pwd generator like Bitwarden.
+# Finally, make sure to keep your those account sub-conf files .gitignore-d.
+
 [accounts]
     yourusername: regularplaintextpass
     secondusername: +hashedpassword
+
+# Argon2 Hashing
+# It is recommended to enable Argon 2 Hashing
+# Our Global enabled this by default with `ah-alg: argon2` in `[Global]` section.
+# When you start with plaintext password, stop the copyparty immediately once the server reached activity.
+# Then watch for the generated hash in the terminal.
+# Alternatively, you can add `--ah-cli` in the start argument to begin interactiv pwd hashing process.
+# `./copyparty-sfx.py -c conf/conf-OhMyPCDuar-Rocky.conf --ah-cli`

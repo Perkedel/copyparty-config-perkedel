@@ -1,5 +1,5 @@
-% ../conf_pieces/global_default.conf
-% ../conf.d
+% ../conf_pieces/global_default.conf  # load default Global. You can use your own if you want
+% ../conf.d  # load every sub config in `/conf.d`.
 
 # fill with your storage now!
 # First, copy this file to the `/conf`. 
@@ -9,13 +9,23 @@
 # e.g., `/conf/conf-OhMyPCDuar-Rocky.conf`
 
 [/Examples]
-    ~/MySamples
-    % ../conf_pieces/accs_default_noAccident.conf
-    % ../conf_pieces/flags_media.conf
+    ~/MySamples  # First line must be where disk path you'd like to fill this volume with
+    % ../conf_pieces/accs_default_noAccident.conf  # load default with accident protection (no delete even admin)
+    % ../conf_pieces/flags_media.conf  # load default flags we specially tuned for most cases.
 
 # so on & so forth.
 
 # Once you're done, return to the root of this repository.
 # `cd ..`
-# Start the copyparty pointing to this your edited config
+# ensure your copy of `copyparty-sfx.py` executable permission is ON.
+# `chmod +x ./copyparty-sfx.py` just in case.
+# Start the copyparty with config pointing to this your edited config
 # `./copyparty-sfx.py -c conf/conf-OhMyPCDuar-Rocky.conf`
+# However, if your terminal somehow does not support execution of python file directly,
+# (looking at you, Windows!!!!)
+# Or you just messed up your PC despite all configured, 
+# you can just explicitly execute python with copyparty & the config as the total argument.
+# `python ./copyparty-sfx.py -c conf/conf-OhMyPCDuar-Win.conf`
+
+# Feel free also to delete all hashtag comments around here, 
+# except our copyright notice & anyone elses.
