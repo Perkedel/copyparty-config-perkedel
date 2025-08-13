@@ -8,7 +8,7 @@ Test copyparty
 
 ## Adopt this config!
 
-See [Setup.md](docs/setup.md) file to get started
+See [Setup.md](docs/setup.md?v) file to get started
 
 ## copyparty?
 
