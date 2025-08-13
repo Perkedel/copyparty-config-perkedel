@@ -14,17 +14,17 @@ enable expansion of placeholder variables in `README.md` and prologue/epilogue f
 
 | explanation          | placeholder          |
 | -------------------- | -------------------- |
-| your ip address      | {{self.ip}}          |
-| your user-agent      | {{self.ua}}          |
-| your username        | {{self.uname}}       |
-| the `Host` you see   | {{self.host}}        |
-| server unix time     | {{srv.itime}}        |
-| server datetime      | {{srv.htime}}        |
-| server name          | {{cfg.name}}         |
-| logout after         | {{cfg.logout}} hours |
-| vol reindex interval | {{vf.scan}}          |
-| thumbnail size       | {{vf.thsize}}        |
-| your country         | {{hdr.cf_ipcountry}} |
+| your ip address      | `self.ip`= {{self.ip}}          |
+| your user-agent      | `self.ua`= {{self.ua}}          |
+| your username        | `self.uname`= {{self.uname}}       |
+| the `Host` you see   | `self.host`= {{self.host}}        |
+| server unix time     | `srv.itime`= {{srv.itime}}        |
+| server datetime      | `srv.htime`= {{srv.htime}}        |
+| server name          | `cfg.name`= {{cfg.name}}         |
+| logout after         | `cfg.logout` (in hours)= {{cfg.logout}} |
+| vol reindex interval | `vf.scan`= {{vf.scan}}          |
+| thumbnail size       | `vf.thsize`= {{vf.thsize}}        |
+| your country         | `hdr.cf_ipcountry`= {{hdr.cf_ipcountry}} |
 
 ## Explain
 

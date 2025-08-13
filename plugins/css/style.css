@@ -1,0 +1,31 @@
+/*
+Styles for Kolmorotzzet copyparty server
+
+https://github.com/9001/copyparty/tree/hovudstraum/docs/rice
+*/
+
+@font-face {
+    font-family: "Ubuntu";
+    font-display: swap;
+    src: local("Ubuntu"), url("https://fonts.googleapis.com/css2?family=Ubuntu");
+}
+
+@font-face {
+    font-family: "Ubuntu Mono";
+    font-display: swap;
+    src: local("Ubuntu Mono"), url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono");
+}
+
+@font-face {
+    font-family: "Ubuntu Sans";
+    font-display: swap;
+    src: local("Ubuntu Sans"), url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans");
+}
+
+:root {
+	--font-main: "Ubuntu Sans", ubuntu-sans, ubuntu, sans-serif;
+	--font-serif: "Ubuntu", ubuntu, serif;
+	--font-mono: "Ubuntu Mono", ubuntu-mono, monospace;
+}
+
+.EasyMDEContainer .CodeMirror { font-family: var(--font-mono) }

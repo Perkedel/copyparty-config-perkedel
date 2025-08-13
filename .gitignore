@@ -4,8 +4,11 @@
 conf.d/account.conf
 conf.d/accounts.conf
 conf.d/accounts*.conf
+.secrets
+.chpw
 
 # temporary and caches
 .cache
+.logs
 landing/.hist
 */.hist
