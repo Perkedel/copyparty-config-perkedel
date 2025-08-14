@@ -1,0 +1,135 @@
+html, main {
+	color: #fff;
+	background: #333;
+	font-family: sans-serif;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+h1 {
+	padding: 0;
+	margin: 1em 0;
+	line-height: .17em;
+	text-align: center;
+	letter-spacing: 1em;
+	border-bottom: .05em solid rgba(128,128,128,0.4);
+	text-shadow: .1em .1em 0 #000;
+}
+
+a {
+	color: #fc0;
+	text-decoration: none;
+}
+
+main {
+	max-width: 40em;
+	margin: 2em auto;
+}
+
+form {
+	width: 100%;
+	margin: .5em 0;
+}
+
+button, input {
+	color: #fff;
+	background: #444;
+	font-weight: normal;
+	border: .1em solid #555;
+	border-radius: .3em;
+	padding: .3em .4em;
+	margin: 0;
+}
+
+button {
+	width: 8em;
+	margin: .3em 1em;
+	border-bottom: .1em solid #0af;
+}
+
+input {
+	width: 70%;
+	width: calc(100% - 12em);
+	border-bottom: .1em solid #f3a;
+	line-height: 1em;
+}
+
+#np_outer {
+	padding: .2em 0;
+	text-align: center;
+}
+
+#np_outer h2,
+#lists h2 {
+	margin: 0;
+	padding: .3em 0;
+	letter-spacing: .2em;
+}
+
+#lists h2 {
+	box-shadow: 0 .1em 0 #2d2d2d;
+	border-bottom: .1em solid #444;
+}
+
+#np {
+	padding: 1px 0;
+	background: #2d2d2d;
+	border: .1em solid #444;
+	border-width: .1em 0;
+	border-radius: .6em;
+}
+
+#np a,
+#np span {
+	margin: .7em 0;
+}
+
+#np a,
+#np span,
+#lists a {
+	display: block;
+}
+
+#lists {
+	width: 100%;
+	margin-top: 2em;
+	word-wrap: break-word;
+}
+
+#lists h2 {
+	padding-left: .8em;
+	border-radius: .25em;
+}
+
+#lists ol {
+	margin: 1.5em 0;
+	padding-left: 2em;
+	color: #ababab;
+}
+
+#lists li {
+	margin: 1.5em 0;
+}
+
+#lists a {
+	padding: 0 .5em;
+	border-left: .1em solid #888;
+}
+
+@media (min-width: 60em) {
+	main {
+		max-width: 70em;
+	}
+
+	#lists {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1em;
+	}
+
+	#lists>div {
+		flex: 1 1 1em;
+	}
+}
