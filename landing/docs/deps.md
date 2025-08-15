@@ -19,3 +19,4 @@ List of python package & others you need to install to ensure maximum copyparty 
 | mutagen | recommended |
 | impacket | optional samba |
 | psutil | recommended |
+| python-magic (-bin for Windows) | recommended |

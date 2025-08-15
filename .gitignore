@@ -12,3 +12,9 @@ conf.d/accounts*.conf
 .logs
 landing/.hist
 */.hist
+
+# Sandboxes
+Sandbox/*
+!Sandbox/README.md
+!Sandbox/.gitkeep
+!Sandbox/StartSandbox
