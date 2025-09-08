@@ -30,6 +30,14 @@ Add your username & the password for it. You can also add others
     # user: pass
 ```
 
+### Passsword Encryption
+
+> [!IMPORTANT]
+> Always setup password encryption algorithm even if you place your server only for home use.  
+> Always believe that your network is always hackable no matter how strong you've set them up.
+
+See [Bottomline](#start-copyparty-now)!
+
 ## Group
 
 We recommend that you group the account so you can easily manage and shorten, who gets access to what.  
