@@ -130,3 +130,7 @@ cd .. # go back to the root folder of this repository, then
 > **Always backup both plaintext & hashed password to your Password Manager of your favourite**. We currently use Bitwarden.
 > 
 > Now, Start again. Try login to your copyparty server any method, with your username & your saved password.
+
+> [!IMPORTANT]
+> Finally, there are extra cautions that you must abide when you're going to copyparty for real. e.g., regarding **facing this Download place onto Public** for which some files though not Secret, are **Commercially Sold & Actively on Sale items**.  
+> Review those extra cautions at article [`Extra Cautions`](extraCautions.md)
