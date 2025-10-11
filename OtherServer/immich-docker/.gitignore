@@ -1,3 +1,5 @@
 # Immich ignores
 
 .env
+library
+postgres
