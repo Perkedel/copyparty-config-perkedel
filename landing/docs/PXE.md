@@ -44,7 +44,7 @@ Despite this tho, we do not recommend using it in a professional environment any
 
 ## [iVentoy](https://iventoy.com) (**NOT RECOMMENDED**)
 
-if doing iPXE somehow feels undesirable, you can setup another all in one kit with **iVentoy**, from the same guy who made [Ventoy the USB format-once forever booter](https://ventoy.com). It comes with DCHP, & TFTP with the boot website included. Simply fill out whatever boot disk you want in its `iso` directory next by the daemon app, run, go to config, and start the PXE. Easy and ready to go.
+if doing iPXE somehow feels undesirable, you can setup another all in one kit with **iVentoy**, from the same guy who made [Ventoy the USB format-once forever booter](https://ventoy.net). It comes with DCHP, & TFTP with the boot website included. Simply fill out whatever boot disk you want in its `iso` directory next by the daemon app, run, go to config, and start the PXE. Easy and ready to go.
 
 You can also disable the PXE & only have the TFTP server. Now, you can tell your DCHP `next-server` to lead to your iVentoy TFTP server, and fill `filename` with e.g. `iventoy_loader_16000` (`External` mode) or manually `iventoy_loader_16000_bios` (`ExternalNet` mode with dnsmasq matching architecture `bios`) & `iventoy_loader_16000_efi` (dsnmasq matching architecture `efi`), etc etc.
 
