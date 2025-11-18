@@ -1,0 +1,35 @@
+#!ipxe
+# https://netboot.xyz/docs/docker/custom-menus
+######## CUSTOM MENU ########
+
+:custom_menu
+menu Custom Boot Options
+item --gap -- Custom Options:
+item custom_option1 Custom Option 1
+item custom_option2 Custom Option 2
+item --gap -- Tools:
+item custom_tool1 Custom Tool 1
+item --gap -- Return:
+item return Return to Main Menu
+choose --default return --timeout 10000 custom_target && goto ${custom_target}
+
+:custom_option1
+# Add your custom boot logic here
+echo Booting Custom Option 1...
+# Add your boot commands
+goto custom_menu
+
+:custom_option2
+# Add your custom boot logic here
+echo Booting Custom Option 2...
+# Add your boot commands
+goto custom_menu
+
+:custom_tool1
+# Add your custom tool logic here
+echo Loading Custom Tool 1...
+# Add your tool commands
+goto custom_menu
+
+:return
+exit
