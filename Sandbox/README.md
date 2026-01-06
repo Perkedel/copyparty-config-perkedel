@@ -1,4 +1,4 @@
-.# Sandbox
+# Sandbox
 
 Do Something wild here!
 
