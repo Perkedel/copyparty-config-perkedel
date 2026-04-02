@@ -18,3 +18,7 @@ Sandbox/*
 !Sandbox/README.md
 !Sandbox/.gitkeep
 !Sandbox/StartSandbox
+
+# bin file itself just in case of security flaw
+copyparty-sfx.py
+# from now on you must first run updater to download said bin files.
