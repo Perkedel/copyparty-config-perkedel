@@ -2,6 +2,6 @@
 # (JOELwindows7)
 
 $anKameloso = ".\kameloso.exe"
-$anArgs = "--serve-dir=.\Landing\custom\kameloso\public"
+$anArgs = "--serve-dir=..\..\Landing\custom\kameloso\public"
 
 Invoke-Expression ".$($anKameloso) $($anArgs)"
