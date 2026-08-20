@@ -9,4 +9,4 @@ Invoke-Expression "$($Wget) $($Download) -N"
 
 ## then extract!
 
-Invoke-Expression "$(7zip) x adnauseam.chromium.zip"
+Invoke-Expression "$($7zip) x adnauseam.chromium.zip"
