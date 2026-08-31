@@ -8,20 +8,27 @@ Here repo:
 
 https://github.com/Perkedel/copyparty-config-perkedel
 
+& for example,
+
 ```sh
 # from your home folder (~),
-mkdir -p ~/Serve/copyparty  # make this new directories e.g.,
-cd ~/Serve  # go to this Serve Folder,
+mkdir -p ~/Projects/Server/  # make this new directories e.g.,
+cd ~/Projects/Server/  # go to this Server Folder,
 git clone https://github.com/Perkedel/copyparty-config-perkedel.git copyparty  # clone this repo onto /home/yourname/Serve/copyparty
+cd copyparty-config-perkedel # go to the inside of the project!
 ```
+
+> [!TIP]  
+> Since 2026, Freedesktop added new standard folder `~/Projects`. You may have this pops up when you updated your Distro.  
+> Do not be alarmed if this new folder shows up there, this is normal.
 
 ## Setup account
 
-> [!IMPORTANT]
-> Do not share your account config! Make sure the following config is .gitignored.
+> [!CAUTION]
+> Do not share your account config! Make sure this password config, `account.conf` is .gitignored.
 
 Account is your secret. **Do not share**.  
-create new file `/conf.d/account.conf`. That's account config, in this repo's `conf.d` folder.  
+create new file `conf.d/account.conf`. That's account config, in this repo's `conf.d` folder.  
 Add your username & the password for it. You can also add others
 
 ```conf
@@ -84,7 +91,11 @@ accs:
     rGwmh: @family, @saorfa
 ```
 
-these here, will be implemented as one of the chosen flag under your volume accordingly.
+notice no-accident-protection has a `d` in Kaorfa's access. Now I can delete from copyparty.  
+I advise you do not give `d`, not even to admin like myself, **to prevent accidentsl deletion**.  
+If you have to delete file, do so manually & physically in person or through a complicated KVM you got.
+
+Above flags here, will be implemented as one of the chosen flag under your volume accordingly.
 
 ## Begin copyparty with the presets
 
